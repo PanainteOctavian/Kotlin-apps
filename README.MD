@@ -1,79 +1,88 @@
-# Proiecte și Laboratoare de Programare
+lab1 - Java and Git
+    Basic calculator for mathematical expressions in Java with JFrame interface
 
----
 
-## Lab 1: Java și Git ☕
-* **Tema:** Calculator de bază pentru expresii matematice.
-* **Tehnologii:** Java, Interfață grafică **JFrame**.
+lab2 - GraalVM
+    An example of a polyglot program with GraalVM. A polyglot program is a program that contains code in different programming languages. 
+    GraalVM must be imported for the program to work.
 
----
 
-## Lab 2: GraalVM - Programare Poliglotă 
-* **Tema:** Exemplu de program poliglot care conține cod din mai multe limbaje de programare.
-* **Necesitate:** Importarea și utilizarea **GraalVM** pentru execuție.
+lab3 - ADT(Algebraic Data Types) in Kotlin
+    A simple regex program for deleting multiple spaces, backspace or the index page.
 
----
 
-## Lab 3: ADT (Algebraic Data Types) în Kotlin 
-* **Tema:** Program simplu de expresii regulate (**regex**) pentru ștergerea spațiilor multiple, **backspace** sau a paginii index.
+lab4 - SOLID Principles
+    *S*ingle responsibility principle
+    *O*pen/closed principle
+    *L*iskov substitution principle
+    *I*nterface segregation principle
+    *D*ependency inversion principle
 
----
+    Pb1
+    A web crawler implemented with khttp and Jsoup. A web crawler (also called a spider or bot) is a program that automatically browses the internet and collects information from websites.
 
-## Lab 4: Principii SOLID (S.O.L.I.D.) 
-Proiecte bazate pe aplicarea principiilor: **S**ingle Responsibility, **O**pen/Closed, **L**iskov Substitution, **I**nterface Segregation, **D**ependency Inversion.
+    Pb2
+    An app for buying tickets at a cinema built with SOLID principles in mind.
 
-* ### Pb 1: Web Crawler 
-    * **Implementare:** Un **web crawler** (spider sau bot) care navighează automat pe internet și colectează informații.
-    * **Tehnologii:** Librăriile **khttp** și **Jsoup**.
-* ### Pb 2: Aplicație Cinema 
-    * **Tema:** O aplicație pentru cumpărarea biletelor la un cinematograf, construită cu respectarea principiilor **SOLID**.
-* ### Pb 3: Aplicație To-Do 
-    * **Tema:** O aplicație simplă de tip **to-do list**, bazată pe principiile **SOLID**.
+    Pb3
+    A simple to-do app based on SOLID principles.
 
----
 
-## Lab 7: Colecții și Generice în Kotlin 
+lab7 - Collections & generics in Kotlin
+    MainLab.kt
+    A program that processes all the entries from /var/log/syslog (main system log file on Linux systems) from the last 30 minutes.
 
-* ### `MainLab.kt` (Loguri de Sistem) 
-    * **Tema:** Program care procesează toate intrările din fișierul de log al sistemului (`/var/log/syslog`) din ultimele **30 de minute**.
-* ### `MainTema.kt` (Istoric APT) 
-    * **Tema:** Program care procesează ultimele **50 de linii** din fișierul de istoric al pachetelor (`/var/log/apt/history.log`) pe sistemele bazate pe Debian/Ubuntu.
+    MainTema.kt
+    A program that processes the last 50 lines from /var/log/apt/history.log (the file which records the history of package management operations on Debian-based Linux systems (like Ubuntu)).
 
----
 
-## Lab 8: Design Patterns în Kotlin 
+lab8 - Design Patterns in Kotlin
+    tema1
+    An app that that calculates the exit of a logical AND gate with 2, 3, 4 and 8 inputs.
 
-* ### Tema 1: Poartă Logică AND 
-    * **Tema:** Aplicație care calculează ieșirea unei porți logice **AND** cu **2, 3, 4 și 8 intrări**.
-* ### Tema 2: Browser cu Control Parental 
-    * **Tema:** Browser care combină trei *Design Patterns* pentru funcționalități avansate:
-        * **Prototype:** Pentru generarea cererilor standard.
-        * **Proxy:** Pentru filtrarea cererilor HTTP GET (control parental).
-        * **Facade:** Pentru o interfață de utilizator simplificată.
+    tema2
+    Browser with parental controls that combines three design patterns: the Prototype pattern for generating standard requests, the Proxy pattern for filtering HTTP GET requests, and the Facade pattern for delivering a streamlined user interface.
 
----
 
-## Lab 10: Corutine (Kotlin) și Concurență (Java) ⚡
+lab10 - Corutines
+    All the apps were made just for academic purpose, using Kotlin coroutines, Java BlockingQueue and Java Executors.
 
-Aplicații realizate în scop academic, utilizând **Kotlin coroutines**, **Java BlockingQueue** și **Java Executors**.
+    p2-1
+    Demonstration of the pipeline pattern using Kotlin coroutines and channels to process vectors across sequential stages.
+    
+    p2-2
+    Equivalent vector processing pipeline implemented with traditional Java threading and BlockingQueue mechanisms.
 
-| Proiect | Descriere (Kotlin Coroutines) | Descriere (Java Threading) |
-| :--- | :--- | :--- |
-| **P2** | Demonstrarea **pattern-ului Pipeline** utilizând corutine și **channels** pentru procesarea vectorilor în etape secvențiale. | Pipeline de procesare a vectorilor implementat cu mecanisme tradiționale de *threading* Java și **BlockingQueue**. |
-| **P3** | Ilustrarea **condițiilor de cursă** (*race conditions*) la modificarea structurilor de date partajate fără sincronizare. | Implementare corect sincronizată **Producător-Consumator** utilizând **LinkedBlockingQueue** din Java. |
-| **P4** | Cititor de fișiere bazat pe corutine Kotlin cu *dispatchers* I/O adecvați pentru operații asincrone. | Soluție concurentă de citire a fișierelor utilizând un *fixed thread pool executor* din Java. |
-| **P5** | Pipeline de *web scraping* construit cu **actori** Kotlin: descărcare pagini, parsare conținut și randare arbore DOM. | Pipeline de procesare web în trei etape, implementat cu *threads* Java și *blocking queues*. |
+    p3-1
+    Illustration of race conditions that occur when coroutines modify shared data structures without synchronization safeguards.
+    
+    p3-2
+    Properly synchronized producer-consumer implementation using Java's LinkedBlockingQueue.
 
----
+    p4-1
+    File reader built with Kotlin coroutines and appropriate I/O dispatchers for asynchronous operations.
 
-## Lab 12: Programare Funcțională (FP) 
-Paradigmă axată pe transformarea datelor cu expresii (de preferat, fără efecte secundare - *side effects*).
+    p4-2
+    Concurrent file reading solution using Java's fixed thread pool executor.
 
-* ### P1: Transformări Secvențiale 
-    * **Tema:** Funcție care aplică transformări secvențiale unei liste de numere întregi și calculează suma finală.
-* ### P2: Cifrului Caesar Selectiv 
-    * **Tema:** Implementare selectivă a cifrului Caesar care criptează conținutul fișierelor pe baza unor criterii specifice.
-* ### P3: Calculator Perimetru Poligon 
-    * **Tema:** Calculează perimetrul unui poligon, ordonând mai întâi punctele în secvență orară sau antiorară înainte de a măsura distanțele.
-* ### P4: Functori și Manipulări 
-    * **Tema:** Demonstrarea operațiilor de tip **functor** aplicate pe structuri de tip *Map* și manipulări de șiruri de caractere (*string*).
+    p5-1
+    Web scraping pipeline built with Kotlin coroutine actors that downloads pages, parses content, and renders DOM trees.
+
+    p5-2
+    Three-stage web processing pipeline implemented with Java threads and blocking queues
+    
+
+lab12 - Functional Programming 
+    Functional programming is a paradigm where the emphasis is placed on transforming data with expressions (ideally, these expressions should have no side effects).
+
+    p1
+    Function that applies sequential transformations to an integer list and computes the final sum.
+
+    p2
+    Selective Caesar cipher implementation that encrypts file contents based on specific criteria.
+    
+    p3
+   Polygon perimeter calculator that first orders points in clockwise or counter-clockwise sequence before measuring distances.
+
+    p4
+    Demonstration of functor-like operations applied to map structures and string manipulations.
