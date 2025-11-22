@@ -1,5 +1,5 @@
 # lab1 - Java and Git
-Basic calculator for mathematical expressions in Java with JFrame interface
+Basic calculator for mathematical expressions in Java with JFrame interface.
 
 # lab2 - GraalVM
 An example of a polyglot program with GraalVM. A polyglot program is a program that contains code in different programming languages. 
