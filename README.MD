@@ -1,4 +1,4 @@
-**lab1** - Java and Git
+#lab1# - Java and Git
     Basic calculator for mathematical expressions in Java with JFrame interface
 
 
