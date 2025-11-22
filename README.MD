@@ -1,15 +1,12 @@
 lab1 - Java and Git
     Basic calculator for mathematical expressions in Java with JFrame interface
 
-
 lab2 - GraalVM
     An example of a polyglot program with GraalVM. A polyglot program is a program that contains code in different programming languages. 
     GraalVM must be imported for the program to work.
 
-
 lab3 - ADT(Algebraic Data Types) in Kotlin
     A simple regex program for deleting multiple spaces, backspace or the index page.
-
 
 lab4 - SOLID Principles
     *S*ingle responsibility principle
@@ -27,7 +24,6 @@ lab4 - SOLID Principles
     Pb3
     A simple to-do app based on SOLID principles.
 
-
 lab7 - Collections & generics in Kotlin
     MainLab.kt
     A program that processes all the entries from /var/log/syslog (main system log file on Linux systems) from the last 30 minutes.
@@ -35,14 +31,12 @@ lab7 - Collections & generics in Kotlin
     MainTema.kt
     A program that processes the last 50 lines from /var/log/apt/history.log (the file which records the history of package management operations on Debian-based Linux systems (like Ubuntu)).
 
-
 lab8 - Design Patterns in Kotlin
     tema1
     An app that that calculates the exit of a logical AND gate with 2, 3, 4 and 8 inputs.
 
     tema2
     Browser with parental controls that combines three design patterns: the Prototype pattern for generating standard requests, the Proxy pattern for filtering HTTP GET requests, and the Facade pattern for delivering a streamlined user interface.
-
 
 lab10 - Corutines
     All the apps were made just for academic purpose, using Kotlin coroutines, Java BlockingQueue and Java Executors.
@@ -70,7 +64,6 @@ lab10 - Corutines
 
     p5-2
     Three-stage web processing pipeline implemented with Java threads and blocking queues
-    
 
 lab12 - Functional Programming 
     Functional programming is a paradigm where the emphasis is placed on transforming data with expressions (ideally, these expressions should have no side effects).
@@ -82,7 +75,7 @@ lab12 - Functional Programming
     Selective Caesar cipher implementation that encrypts file contents based on specific criteria.
     
     p3
-   Polygon perimeter calculator that first orders points in clockwise or counter-clockwise sequence before measuring distances.
+    Polygon perimeter calculator that first orders points in clockwise or counter-clockwise sequence before measuring distances.
 
     p4
     Demonstration of functor-like operations applied to map structures and string manipulations.
