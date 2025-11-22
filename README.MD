@@ -66,7 +66,7 @@ Web scraping pipeline built with Kotlin coroutine actors that downloads pages, p
 Three-stage web processing pipeline implemented with Java threads and blocking queues
 
 # lab12 - Functional Programming 
-Functional programming is a paradigm where the emphasis is placed on transforming data with expressions (ideally, these expressions should have no side effects).
+Functional programming is a paradigm where the emphasis is placed on transforming data with expressions.
 
 ## p1
 Function that applies sequential transformations to an integer list and computes the final sum.
