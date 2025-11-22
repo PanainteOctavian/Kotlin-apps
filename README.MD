@@ -1,11 +1,11 @@
 # lab1CalculatorExprCompuse.java - Java and Git
 Basic calculator for mathematical expressions in Java with JFrame interface.
 
-# lab2 - GraalVM
+# lab2Polyglot.java - GraalVM
 An example of a polyglot program with GraalVM. A polyglot program is a program that contains code in different programming languages. 
 GraalVM must be imported for the program to work.
 
-# lab3 - ADT(Algebraic Data Types) in Kotlin
+# lab3Regex.kt - ADT(Algebraic Data Types) in Kotlin
 A simple regex program for deleting multiple spaces, backspace or the index page.
 
 # lab4 - SOLID Principles
