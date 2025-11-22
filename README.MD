@@ -6,7 +6,7 @@ An example of a polyglot program with GraalVM. A polyglot program is a program t
 GraalVM must be imported for the program to work.
 
 # lab3Regex.kt - ADT(Algebraic Data Types) in Kotlin
-A simple regex program for deleting multiple spaces, backspace or the index page.
+Simple regex program for deleting multiple spaces, backspace or the index page.
 
 # lab4 - SOLID Principles
 *S*ingle responsibility principle
@@ -16,24 +16,24 @@ A simple regex program for deleting multiple spaces, backspace or the index page
 *D*ependency inversion principle
 
 ## Pb1
-A web crawler implemented with khttp and Jsoup. A web crawler (also called a spider or bot) is a program that automatically browses the internet and collects information from websites.
+Web crawler implemented with khttp and Jsoup. A web crawler (also called a spider or bot) is a program that automatically browses the internet and collects information from websites.
 
 ## Pb2
-An app for buying tickets at a cinema built with SOLID principles in mind.
+App for buying tickets at a cinema built with SOLID principles in mind.
 
 ## Pb3
-A simple to-do app based on SOLID principles.
+Simple to-do app based on SOLID principles.
 
 # lab7 - Collections & generics in Kotlin
 ## MainLab.kt
-A program that processes all the entries from /var/log/syslog (main system log file on Linux systems) from the last 30 minutes.
+Program that processes all the entries from /var/log/syslog (main system log file on Linux systems) from the last 30 minutes.
 
 ## MainTema.kt
-A program that processes the last 50 lines from /var/log/apt/history.log (the file which records the history of package management operations on Debian-based Linux systems (like Ubuntu)).
+Program that processes the last 50 lines from /var/log/apt/history.log (the file which records the history of package management operations on Debian-based Linux systems (like Ubuntu)).
 
 # lab8 - Design Patterns in Kotlin
 ## tema1
-An app that that calculates the exit of a logical AND gate with 2, 3, 4 and 8 inputs.
+App that that calculates the exit of a logical AND gate with 2, 3, 4 and 8 inputs.
 
 ## tema2
 Browser with parental controls that combines three design patterns: the Prototype pattern for generating standard requests, the Proxy pattern for filtering HTTP GET requests, and the Facade pattern for delivering a streamlined user interface.
